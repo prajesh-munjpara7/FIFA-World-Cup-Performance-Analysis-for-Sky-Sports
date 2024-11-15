@@ -8,8 +8,8 @@ select * from overall_wc_stats;
 alter table group_stage_team_stats_sky_sports_football rename to group_stage_team_stats;
 select * from group_stage_team_stats;
 
-#1.Write an sql query to show all the UNIQUE team names
-select team from overall_wc_stats;
+# Write an sql query to show all the UNIQUE team names
+ select team from overall_wc_stats;
 
 #2.Write an SQL query to show name of team which has rank 1 from group 7 
 
